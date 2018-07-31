@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize * */
-@import url("https://fonts.googleapis.com/css?family=Nosifer|Sonsie+One");
+@import url("https://fonts.googleapis.com/css?family=Nosifer|Sonsie+One|Ubuntu:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900");
 html {
   font-family: sans-serif;
@@ -344,3 +344,29 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
+
+#header {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+#nav-bar {
+  background: #404040; }
+
+.main-nav {
+  display: flex; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: #fff;
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu'; }
+
+.nav-link {
+  margin-top: 2rem; }
