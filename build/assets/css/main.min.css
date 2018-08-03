@@ -201,7 +201,7 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1366px;
   margin: 0 auto; }
 
 section {
@@ -346,27 +346,40 @@ hr {
   left: 0; }
 
 #header {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto; }
+  background: url("../img/heroBG.jpg") no-repeat;
+  background-size: cover;
+  height: 100px; }
 
-#nav-bar {
-  background: #404040; }
-
-.main-nav {
+.main {
   display: flex; }
-  .main-nav li {
+  .main li {
     list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto; }
-  .main-nav a {
-    color: #fff;
+  .main a {
+    color: #FCFCFC;
     display: block;
-    padding: 12px 30px;
+    border-radius: 5px;
+    padding: 15px 30px;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 500;
-    font-family: 'Ubuntu'; }
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    text-transform: uppercase; }
+  .main a:hover {
+    color: #00D6C4; }
 
-.nav-link {
-  margin-top: 2rem; }
+#header-img {
+  margin-right: 15rem; }
+
+#featured {
+  padding: 2rem;
+  margin: 0 auto;
+  background: #7C7C7C; }
+  #featured h1 {
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Roboto';
+    word-spacing: 0.5rem;
+    letter-spacing: 1rem;
+    color: #FCFCFC; }
