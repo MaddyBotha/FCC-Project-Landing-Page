@@ -333,6 +333,9 @@ hr {
 
 #header-img {
   margin-right: 15rem; }
+  @media only screen and (max-width: 480px) {
+    #header-img {
+      width: 80%; } }
 
 #featured {
   padding: 2rem;
@@ -343,10 +346,15 @@ hr {
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
-    font-family: 'Roboto';
+    font-family: 'Ubuntu';
     word-spacing: 0.5rem;
     letter-spacing: 1rem;
     color: #FCFCFC; }
+    @media only screen and (max-width: 480px) {
+      #featured h1 {
+        font-size: 16px;
+        word-spacing: normal;
+        letter-spacing: 0.5rem; } }
 
 .info {
   color: #FCFCFC;
@@ -354,7 +362,8 @@ hr {
   .info p {
     font-size: 18px;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Ubuntu'; }
   .info button {
     padding: 10px 10px;
     margin-left: 55rem;
@@ -362,8 +371,14 @@ hr {
     background: #FCFCFC;
     color: #00D6C4;
     font-weight: 600;
-    font-family: 'Roboto';
+    font-family: 'Ubuntu';
     text-transform: uppercase;
     -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
+    @media only screen and (max-width: 680px) {
+      .info button {
+        margin-left: 15rem; } }
+    @media only screen and (max-width: 480px) {
+      .info button {
+        margin-left: 9rem; } }

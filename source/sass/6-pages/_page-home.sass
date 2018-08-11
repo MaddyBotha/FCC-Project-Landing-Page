@@ -27,7 +27,8 @@
 
 #header-img
     margin-right: 15rem
-
+    @media only screen and (max-width: 480px)
+      width: 80%
 
 // Featured
 #featured
@@ -40,10 +41,14 @@
     text-align: center
     text-transform: uppercase
     font-size: 25px
-    font-family: 'Roboto'
+    font-family: 'Ubuntu'
     word-spacing: 0.5rem
     letter-spacing: 1rem
     color: $baby-powder
+    @media only screen and (max-width: 480px)
+      font-size: 16px
+      word-spacing: normal
+      letter-spacing: 0.5rem
 
 .info
   color: $baby-powder
@@ -53,6 +58,7 @@
     font-size: 18px
     font-weight: 400
     text-align: center
+    font-family: 'Ubuntu'
 
   button
     padding: 10px 10px
@@ -61,8 +67,12 @@
     background: $baby-powder
     color: $robin-egg-blue
     font-weight: 600
-    font-family: 'Roboto'
+    font-family: 'Ubuntu'
     text-transform: uppercase
     -webkit-box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5)
     -moz-box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5)
     box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5)
+    @media only screen and (max-width: 680px)
+      margin-left: 15rem
+    @media only screen and (max-width: 480px)
+      margin-left: 9rem
