@@ -2,7 +2,7 @@
 
 // Styles
 #header
-  background: url("../img/heroBG.jpg") no-repeat
+  background: $black-olive no-repeat
   background-size: cover
   height: 100px
 
@@ -17,6 +17,7 @@
     display: block
     border-radius: 5px
     padding: 10px 50px
+    margin-top: 0.8rem
     text-decoration: none
     font-size: 20px
     font-family: 'Ubuntu'
@@ -27,6 +28,7 @@
 
 #header-img
     margin-right: 15rem
+    margin-top: 0.2rem
     @media only screen and (max-width: 480px)
       width: 80%
 
@@ -40,7 +42,6 @@
     padding: 1rem
     text-align: center
     text-transform: uppercase
-    font-size: 25px
     font-family: 'Ubuntu'
     word-spacing: 0.5rem
     letter-spacing: 1rem
@@ -55,10 +56,12 @@
   padding: 5px 2px
 
   p
-    font-size: 18px
+    font-size: 36px
+    margin-top: 2rem
     font-weight: 400
     text-align: center
     font-family: 'Ubuntu'
+    color: $robin-egg-blue
 
   button
     padding: 10px 10px
@@ -76,3 +79,29 @@
       margin-left: 15rem
     @media only screen and (max-width: 480px)
       margin-left: 9rem
+
+
+// vid-link section
+#vid-link
+  background: $black-olive
+  padding: 30px 10px
+
+  h2
+    margin-bottom: 3rem
+    color: $white
+    font-family: 'Ubuntu'
+    text-transform: uppercase
+
+.vid-header
+  text-align: center
+  padding: 30px 10px
+
+  @media only screen and (max-width: 480px)
+    iframe
+      width: 100%
+
+.custom-vid
+  font-size: 32px
+  margin-top: 0.5rem
+  font-family: 'Ubuntu'
+  color: $robin-egg-blue
