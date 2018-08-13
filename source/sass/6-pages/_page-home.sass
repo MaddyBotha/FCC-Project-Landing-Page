@@ -80,28 +80,29 @@
     @media only screen and (max-width: 480px)
       margin-left: 9rem
 
-// card-section
 
+// card-section
 #card-section
-  height: 15rem
+  background: $anti-flash-white
+  text-align: center
+  height: 350px
+  position: relative
+  p
+    margin: 80px 0
+
+.large
+  padding: 15px 10px
 
 .cards
   display: grid
-  margin-left: 10rem
-  grid-template-columns: 30% 30% 30%
-  grid-gap: 50px
-  margin-top: 2rem
-
-.svg-cards
-  margin-left: 5rem 
+  grid-template-columns: repeat(3, auto)
+  grid-gap: 30px
+  margin-left: 1rem
 
 .icon-card
   background: $white
-  padding: 30px 20px 10px 20px
-  box-shadow: 0px 12px 10px -10px rgba(0,0,0, 0.5)
-
-.custom-card
-  margin: 10px 0 0
+  padding: 20px 10px
+  box-shadow: 0 12px 10px -10px rgba(0,0,0, 0.2)
 
 .exacto
   border-top: 5px solid $robin-egg-blue
@@ -113,35 +114,6 @@
   border-top: 5px solid $robin-egg-blue
   border-radius: 10px
 
-
-
-
-//
-// .cards
-//   display: grid
-//   grid-template-columns: 1fr 1fr 1fr
-//   grid-gap: 25px
-//
-// .icon-card
-//   background: %$white
-//   padding: 30px 20px 10px 20px
-//   box-shadow: 0px 12px 10px -10px rgba(0,0,0, 0.5)
-//
-// .exacto
-//   margin-left: 2rem
-//   border-top: 5px solid $robin-egg-blue
-//   border-radius: 10px
-//
-// .drum
-//   margin-left: 2rem
-//   border-top: 5px solid $robin-egg-blue
-//   border-radius: 10px
-//
-// .truck
-//   margin-left: 2rem
-//   border-top: 5px solid $robin-egg-blue
-//   border-radius: 10px
-//
 
 // vid-link section
 #vid-link
