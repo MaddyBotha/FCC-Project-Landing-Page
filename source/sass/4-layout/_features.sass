@@ -1,8 +1,14 @@
 // Featured
 #featured
-  padding: 2rem
+  padding: 6rem 0 0 0
   margin: 0 auto
   background: $trolley-grey
+  height: 50rem
+  @media only screen and (max-width: 680px)
+    height: auto
+    img
+      padding: 5px 15px
+      margin-bottom: 10px
 
   h1
     padding: 1rem
@@ -11,37 +17,8 @@
     font-family: 'Ubuntu'
     word-spacing: 0.5rem
     letter-spacing: 1rem
-    color: $baby-powder
+    color: $robin-egg-blue
     @media only screen and (max-width: 480px)
       font-size: 16px
       word-spacing: normal
       letter-spacing: 0.5rem
-
-.info
-  color: $baby-powder
-  padding: 5px 2px
-
-  p
-    font-size: 36px
-    margin-top: 2rem
-    font-weight: 400
-    text-align: center
-    font-family: 'Ubuntu'
-    color: $robin-egg-blue
-
-  button
-    padding: 10px 10px
-    margin-left: 55rem
-    border-radius: 5px
-    background: $baby-powder
-    color: $robin-egg-blue
-    font-weight: 600
-    font-family: 'Ubuntu'
-    text-transform: uppercase
-    -webkit-box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5)
-    -moz-box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5)
-    box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5)
-    @media only screen and (max-width: 680px)
-      margin-left: 15rem
-    @media only screen and (max-width: 480px)
-      margin-left: 9rem
