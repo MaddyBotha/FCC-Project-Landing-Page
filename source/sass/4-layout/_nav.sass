@@ -2,6 +2,10 @@
   background: $black-olive no-repeat
   background-size: cover
   height: 100px
+  @media only screen and (max-width: 1320px)
+    height: 400px
+  @media only screen and (max-width: 680px)
+    height: 250px
 
 // Nav
 .main
@@ -12,7 +16,6 @@
   a
     color: $robin-egg-blue
     display: block
-    border-radius: 5px
     padding: 10px 50px
     margin-top: 0.8rem
     text-decoration: none
@@ -22,11 +25,22 @@
     text-transform: uppercase
   a:hover
     color: $baby-powder
-
+  @media only screen and (max-width: 680px)
+    display: block
+    a
+      margin-left: -5rem
+  @media only screen and (max-width: 1320px)
+    display: block
+    a
+      text-align: center
+      font-size: 50px
+      margin-left: -2rem
 
 
 #header-img
     margin-right: 15rem
     margin-top: 0.2rem
+    @media only screen and (max-width: 680px)
+      width: 70%
     @media only screen and (max-width: 480px)
-      width: 80%
+      width: 50%
