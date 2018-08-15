@@ -337,7 +337,7 @@ hr {
       height: 400px; } }
   @media only screen and (max-width: 680px) {
     #header {
-      height: 250px; } }
+      height: 25rem; } }
 
 .main {
   display: flex; }
@@ -359,7 +359,8 @@ hr {
     .main {
       display: block; }
       .main a {
-        margin-left: -5rem; } }
+        margin-left: -5rem;
+        text-align: left; } }
   @media only screen and (max-width: 1320px) {
     .main {
       display: block; }
@@ -385,10 +386,10 @@ hr {
   height: 50rem; }
   @media only screen and (max-width: 1320px) {
     #featured {
-      margin-top: 48rem; } }
+      margin-top: 24rem; } }
   @media only screen and (max-width: 680px) {
     #featured {
-      margin-top: 10rem;
+      margin-top: 24rem;
       height: auto; }
       #featured img {
         padding: 5px 15px;
@@ -518,13 +519,22 @@ hr {
         margin-left: 5rem; } }
     @media only screen and (max-width: 480px) {
       .form-group input {
-        margin-left: auto; } }
+        margin-left: 0; } }
+    @media only screen and (max-width: 1320px) {
+      .form-group input {
+        margin-left: 28.5rem; } }
   .form-group small {
     font-size: 12px;
     color: #FCFCFC; }
     @media only screen and (max-width: 680px) {
       .form-group small {
         margin-left: -5.5rem; } }
+    @media only screen and (max-width: 480px) {
+      .form-group small {
+        margin-left: -3.5rem; } }
+    @media only screen and (max-width: 1320px) {
+      .form-group small {
+        margin-left: 0.5rem; } }
 
 #submit {
   margin-left: 33rem;
@@ -550,6 +560,9 @@ hr {
   @media only screen and (max-width: 480px) {
     #submit {
       margin-left: auto; } }
+  @media only screen and (max-width: 1320px) {
+    #submit {
+      margin-left: 30.5rem; } }
   #submit:hover, #submit:active, #submit:focus {
     outline: 0;
     transform: scale(1.01);
@@ -567,6 +580,10 @@ hr {
 @media only screen and (max-width: 680px) {
   .contacts a {
     margin-left: 8.5rem; } }
+
+@media only screen and (max-width: 480px) {
+  .contacts a {
+    margin-left: 5.5rem; } }
 
 .fa-github {
   color: #1F655B;
@@ -607,7 +624,3 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
-
-.img_wrap {
-  background: url("../img/drummerboy.jpg") no-repeat;
-  background-size: cover; }
